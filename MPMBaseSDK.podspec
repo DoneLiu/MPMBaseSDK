@@ -43,11 +43,11 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   
   s.subspec 'NSData' do |cs|
-      cs.source_files = "MPMBaseSDK/NSData/*.{h,m}"
+      cs.source_files = "MPMBaseSDK/Classes/NSData/*.{h,m}"
   end
   
   s.subspec 'NSString' do |cs|
-      cs.source_files = "MPMBaseSDK/NSString/*.{h,m}"
+      cs.source_files = "MPMBaseSDK/Classes/NSString/*.{h,m}"
   end
 
 end
