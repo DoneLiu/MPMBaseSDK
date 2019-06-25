@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   MPMBaseSDK:
-    :commit: 20f056f92e7dcbdb13b3aa9f726ba804affca70f
+    :commit: f438db21af3a1414aafe36af32ee57bc35c8564f
     :git: https://github.com/DoneLiu/MPMBaseSDK.git
 
 SPEC CHECKSUMS:
-  MPMBaseSDK: 28a66c0dd862a9df7e6fd18e9d3541c17cc8d80a
+  MPMBaseSDK: e1077b5e39a0d712efc8879887e908c69baf3c2b
 
 PODFILE CHECKSUM: 411c358bb879fd7eb97a9d71a46482bf2b7847ce
 

@@ -11,6 +11,7 @@
 #endif
 
 #import "NSData+AES256.h"
+#import "NSString+AES256.h"
 
 FOUNDATION_EXPORT double MPMBaseSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char MPMBaseSDKVersionString[];

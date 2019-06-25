@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MPMBaseSDK/Classes/**/*"
+  "source_files": "MPMBaseSDK/**/*"
 }
