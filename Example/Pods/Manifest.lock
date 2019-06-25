@@ -1,22 +1,21 @@
 PODS:
-  - MPMBaseSDK (0.0.1)
+  - MPMBaseSDK (0.0.2)
 
 DEPENDENCIES:
-  - MPMBaseSDK (from `https://github.com/DoneLiu/MPMBaseSDK.git`, tag `0.0.1`)
+  - MPMBaseSDK (from `https://github.com/DoneLiu/MPMBaseSDK.git`)
 
 EXTERNAL SOURCES:
   MPMBaseSDK:
     :git: https://github.com/DoneLiu/MPMBaseSDK.git
-    :tag: 0.0.1
 
 CHECKOUT OPTIONS:
   MPMBaseSDK:
+    :commit: 20f056f92e7dcbdb13b3aa9f726ba804affca70f
     :git: https://github.com/DoneLiu/MPMBaseSDK.git
-    :tag: 0.0.1
 
 SPEC CHECKSUMS:
-  MPMBaseSDK: f4cd2c58b89995a1bb76a930b89698953a77102e
+  MPMBaseSDK: 28a66c0dd862a9df7e6fd18e9d3541c17cc8d80a
 
-PODFILE CHECKSUM: b0b1cb27b3713a295a2b54d759cfd65cb5e749a9
+PODFILE CHECKSUM: 411c358bb879fd7eb97a9d71a46482bf2b7847ce
 
 COCOAPODS: 1.7.1

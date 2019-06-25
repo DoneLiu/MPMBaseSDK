@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MPMBaseSDK/Classes/**/*'
+  s.source_files = 'MPMBaseSDK/**/*'
   
   # s.resource_bundles = {
   #   'MPMBaseSDK' => ['MPMBaseSDK/Assets/*.png']
