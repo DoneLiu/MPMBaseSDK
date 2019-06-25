@@ -1,5 +1,9 @@
 PODS:
-  - MPMBaseSDK (0.0.2)
+  - MPMBaseSDK (0.0.2):
+    - MPMBaseSDK/NSData (= 0.0.2)
+    - MPMBaseSDK/NSString (= 0.0.2)
+  - MPMBaseSDK/NSData (0.0.2)
+  - MPMBaseSDK/NSString (0.0.2)
 
 DEPENDENCIES:
   - MPMBaseSDK (from `https://github.com/DoneLiu/MPMBaseSDK.git`)
@@ -10,11 +14,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   MPMBaseSDK:
-    :commit: f438db21af3a1414aafe36af32ee57bc35c8564f
+    :commit: 6345fa166d7698fa7482176c13f3e876c7aa8b07
     :git: https://github.com/DoneLiu/MPMBaseSDK.git
 
 SPEC CHECKSUMS:
-  MPMBaseSDK: e1077b5e39a0d712efc8879887e908c69baf3c2b
+  MPMBaseSDK: e47687d09b6d92215d4bb1372c99a64a541b4593
 
 PODFILE CHECKSUM: 411c358bb879fd7eb97a9d71a46482bf2b7847ce
 

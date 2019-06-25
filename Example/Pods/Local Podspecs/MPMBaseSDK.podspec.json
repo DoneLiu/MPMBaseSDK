@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MPMBaseSDK/**/*"
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "NSData",
+      "source_files": "MPMBaseSDK/NSData/*.{h,m}"
+    },
+    {
+      "name": "NSString",
+      "source_files": "MPMBaseSDK/NSString/*.{h,m}"
+    }
+  ]
 }

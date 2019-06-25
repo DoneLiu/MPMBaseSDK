@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MPMBaseSDK'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'framework for iOS team named MPMBaseSDK.'
 
 # This description is used to generate tags and improve search results.

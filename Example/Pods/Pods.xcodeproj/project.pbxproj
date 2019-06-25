@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12E8FD031679BA9CC4642BF0B3DC710C /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A8F1D4F9D0F8409F97F1A6739B166A /* NSData+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		199A4EAC2C2C62B7458A9DE33469B9DA /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = D436D8616FFBF33F87E2E42D2B626B99 /* NSData+AES256.m */; };
+		2B8417819FE8A34917BB7E86CA349727 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B9FA2502B9C2BB7DC44ED8D6A1CCC5 /* NSString+AES256.m */; };
 		479DF4C184DE19C24E797BAFEA66622B /* Pods-MPMBaseSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE461D384E96E0637A5B6A0E85887147 /* Pods-MPMBaseSDK_Example-dummy.m */; };
 		4EFA6A972A284153E245EAF6CF478EFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		517B27464C6876C5BE1946B7E2ED5A14 /* Pods-MPMBaseSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1A6F0CD642186064A7B1181AEDD660 /* Pods-MPMBaseSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66B2C1D2FA8E606215E3451A6D56FDDB /* NSString+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2454F88004200F81F6DC988A81C344 /* NSString+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73E24C41856432CE99EFEFA5CBA21CC1 /* Pods-MPMBaseSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2572D2CDBF54AA9F122A478479930232 /* Pods-MPMBaseSDK_Tests-dummy.m */; };
 		73E2F2993AEBA557F7DA42B8337F6852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7D194428CF1C5CD8C0DFEF3C78FB5223 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C547E6781747A267649EF6A7C9AD749 /* NSString+AES256.m */; };
-		89724E8AE37E0FD06048065CA1D7734F /* MPMBaseSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7080E0D35E7E7C676F07B37549CE83E6 /* MPMBaseSDK-dummy.m */; };
+		774B44AA7E77E8F3891FFC677664136F /* NSString+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 136D10204D4A7430FA1F08809E95229B /* NSString+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84C23410AB8F742412C5BC4B786A9263 /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A8DE98329075B57754FB76B589EBE0 /* NSData+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89724E8AE37E0FD06048065CA1D7734F /* MPMBaseSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8D5C111448321F9EB94653470F65FF /* MPMBaseSDK-dummy.m */; };
 		92E9999B46EE90CA5835B8C2B8657772 /* Pods-MPMBaseSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3C0EF28F47A830614DD70EE46E10F7 /* Pods-MPMBaseSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A231228265FF2A03E532B263260D7640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DE4A490CEB220F49F68F901498D492C0 /* MPMBaseSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E066DDB90B048F366CD97CEBEDE7B12 /* MPMBaseSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBBA8E4657D3CDC0C16952844AC8C18F /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 03359B6978839BF01F344BDDB0840218 /* NSData+AES256.m */; };
+		DE4A490CEB220F49F68F901498D492C0 /* MPMBaseSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C79E103692E4AB9B5E5191697A54F4E /* MPMBaseSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,35 +40,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03359B6978839BF01F344BDDB0840218 /* NSData+AES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES256.m"; path = "MPMBaseSDK/MPMCategoty/NSData/NSData+AES256.m"; sourceTree = "<group>"; };
-		08A8F1D4F9D0F8409F97F1A6739B166A /* NSData+AES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+AES256.h"; path = "MPMBaseSDK/MPMCategoty/NSData/NSData+AES256.h"; sourceTree = "<group>"; };
+		11A8DE98329075B57754FB76B589EBE0 /* NSData+AES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+AES256.h"; path = "MPMBaseSDK/NSData/NSData+AES256.h"; sourceTree = "<group>"; };
+		136D10204D4A7430FA1F08809E95229B /* NSString+AES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AES256.h"; path = "MPMBaseSDK/NSString/NSString+AES256.h"; sourceTree = "<group>"; };
 		1E1F2551CB0B7F5CED185771867A826F /* Pods-MPMBaseSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPMBaseSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		20ED1BE5F88CEBD62E1BAB8667EEDE59 /* Pods-MPMBaseSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPMBaseSDK_Example.modulemap"; sourceTree = "<group>"; };
 		2572D2CDBF54AA9F122A478479930232 /* Pods-MPMBaseSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPMBaseSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		2B8D5C111448321F9EB94653470F65FF /* MPMBaseSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPMBaseSDK-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34E8D2D5E4A820B5D700E08CFC2E01D8 /* Pods-MPMBaseSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPMBaseSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3635124A89B8C5E0D78C83391DD7F703 /* Pods-MPMBaseSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPMBaseSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48932159456C78052246DD051A0DB5C6 /* Pods-MPMBaseSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPMBaseSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5128B90069B18DA5087AF7AE57DCD0E0 /* Pods-MPMBaseSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPMBaseSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7080E0D35E7E7C676F07B37549CE83E6 /* MPMBaseSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPMBaseSDK-dummy.m"; sourceTree = "<group>"; };
-		77529E0DFEE3CB194BF36E0421FEB5F5 /* MPMBaseSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MPMBaseSDK-Info.plist"; sourceTree = "<group>"; };
+		6C79E103692E4AB9B5E5191697A54F4E /* MPMBaseSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPMBaseSDK-umbrella.h"; sourceTree = "<group>"; };
+		71B9FA2502B9C2BB7DC44ED8D6A1CCC5 /* NSString+AES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AES256.m"; path = "MPMBaseSDK/NSString/NSString+AES256.m"; sourceTree = "<group>"; };
 		7986A611D44D6132C5D621E5692F19F7 /* MPMBaseSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MPMBaseSDK.framework; path = MPMBaseSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A147FFF8B18E43AD862CBA88D929729 /* MPMBaseSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMBaseSDK.xcconfig; sourceTree = "<group>"; };
-		7C547E6781747A267649EF6A7C9AD749 /* NSString+AES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AES256.m"; path = "MPMBaseSDK/MPMCategoty/NSString/NSString+AES256.m"; sourceTree = "<group>"; };
-		7E066DDB90B048F366CD97CEBEDE7B12 /* MPMBaseSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPMBaseSDK-umbrella.h"; sourceTree = "<group>"; };
 		7E1A6F0CD642186064A7B1181AEDD660 /* Pods-MPMBaseSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPMBaseSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		85D0981C42BA8F2DE7B7C7F7350D30D4 /* MPMBaseSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MPMBaseSDK.modulemap; sourceTree = "<group>"; };
-		860984296AAA93B00723554B8B9671A0 /* MPMBaseSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPMBaseSDK-prefix.pch"; sourceTree = "<group>"; };
+		85F8F24ECE8E85129F46F9C084D567DE /* MPMBaseSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MPMBaseSDK-Info.plist"; sourceTree = "<group>"; };
 		93111E38B8270795BA7547B9C29F6B50 /* Pods-MPMBaseSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPMBaseSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A3C0EF28F47A830614DD70EE46E10F7 /* Pods-MPMBaseSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MPMBaseSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F9AA29A101924E2BF3D5130CF52787A /* Pods-MPMBaseSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPMBaseSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AC2454F88004200F81F6DC988A81C344 /* NSString+AES256.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AES256.h"; path = "MPMBaseSDK/MPMCategoty/NSString/NSString+AES256.h"; sourceTree = "<group>"; };
+		AF1F13A5CDCD42541F4A2DE3618B71FE /* MPMBaseSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPMBaseSDK.xcconfig; sourceTree = "<group>"; };
 		CA4443CF95CB5D45E3D0A29DC4B41371 /* Pods-MPMBaseSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MPMBaseSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		D436D8616FFBF33F87E2E42D2B626B99 /* NSData+AES256.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+AES256.m"; path = "MPMBaseSDK/NSData/NSData+AES256.m"; sourceTree = "<group>"; };
 		D47B400A550755D4CAAB7EED837FF30D /* Pods_MPMBaseSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MPMBaseSDK_Tests.framework; path = "Pods-MPMBaseSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D819B6DCD6F23D46041B46DFF6E70F4D /* Pods-MPMBaseSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPMBaseSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE461D384E96E0637A5B6A0E85887147 /* Pods-MPMBaseSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPMBaseSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		E512E5703BE707F49CB388BC66ECBADF /* Pods-MPMBaseSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPMBaseSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		E5A0487AB36A22C42FBE0256ED13B477 /* MPMBaseSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPMBaseSDK-prefix.pch"; sourceTree = "<group>"; };
+		ECFC6365F4BF5C74D4B898EA7D14A266 /* MPMBaseSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MPMBaseSDK.modulemap; sourceTree = "<group>"; };
 		F2931BCA8DBD01B98DA9FCC40A2699CD /* Pods_MPMBaseSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MPMBaseSDK_Example.framework; path = "Pods-MPMBaseSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67B68AF040105CCF03B76AB4AF6F480 /* Pods-MPMBaseSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPMBaseSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F8AE8177D96381459E71680CFC378721 /* Pods-MPMBaseSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPMBaseSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -127,6 +127,57 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		4ABD2545E6AD7FD528BAF6F372BAAC70 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				11A8DE98329075B57754FB76B589EBE0 /* NSData+AES256.h */,
+				D436D8616FFBF33F87E2E42D2B626B99 /* NSData+AES256.m */,
+			);
+			name = NSData;
+			sourceTree = "<group>";
+		};
+		4AC6555B2444539B00C84F6745130730 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				136D10204D4A7430FA1F08809E95229B /* NSString+AES256.h */,
+				71B9FA2502B9C2BB7DC44ED8D6A1CCC5 /* NSString+AES256.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		72231C4CA14AC06138FD63DE0B2277E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80A65631685FAA1B0815467BF15D6498 /* MPMBaseSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76530B4383E5B3A4960AC6DEB47DED14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC6365F4BF5C74D4B898EA7D14A266 /* MPMBaseSDK.modulemap */,
+				AF1F13A5CDCD42541F4A2DE3618B71FE /* MPMBaseSDK.xcconfig */,
+				2B8D5C111448321F9EB94653470F65FF /* MPMBaseSDK-dummy.m */,
+				85F8F24ECE8E85129F46F9C084D567DE /* MPMBaseSDK-Info.plist */,
+				E5A0487AB36A22C42FBE0256ED13B477 /* MPMBaseSDK-prefix.pch */,
+				6C79E103692E4AB9B5E5191697A54F4E /* MPMBaseSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPMBaseSDK";
+			sourceTree = "<group>";
+		};
+		80A65631685FAA1B0815467BF15D6498 /* MPMBaseSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4ABD2545E6AD7FD528BAF6F372BAAC70 /* NSData */,
+				4AC6555B2444539B00C84F6745130730 /* NSString */,
+				76530B4383E5B3A4960AC6DEB47DED14 /* Support Files */,
+			);
+			name = MPMBaseSDK;
+			path = MPMBaseSDK;
+			sourceTree = "<group>";
+		};
 		A2435A8DE3A9A10484B55954752D845D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,19 +188,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD203C5D2A2520F928984DE2A6C5A976 /* MPMBaseSDK */ = {
-			isa = PBXGroup;
-			children = (
-				08A8F1D4F9D0F8409F97F1A6739B166A /* NSData+AES256.h */,
-				03359B6978839BF01F344BDDB0840218 /* NSData+AES256.m */,
-				AC2454F88004200F81F6DC988A81C344 /* NSString+AES256.h */,
-				7C547E6781747A267649EF6A7C9AD749 /* NSString+AES256.m */,
-				CCD0D2C3592B19CE44D22B8B8F28BE13 /* Support Files */,
-			);
-			name = MPMBaseSDK;
-			path = MPMBaseSDK;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,26 +196,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CCD0D2C3592B19CE44D22B8B8F28BE13 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				85D0981C42BA8F2DE7B7C7F7350D30D4 /* MPMBaseSDK.modulemap */,
-				7A147FFF8B18E43AD862CBA88D929729 /* MPMBaseSDK.xcconfig */,
-				7080E0D35E7E7C676F07B37549CE83E6 /* MPMBaseSDK-dummy.m */,
-				77529E0DFEE3CB194BF36E0421FEB5F5 /* MPMBaseSDK-Info.plist */,
-				860984296AAA93B00723554B8B9671A0 /* MPMBaseSDK-prefix.pch */,
-				7E066DDB90B048F366CD97CEBEDE7B12 /* MPMBaseSDK-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MPMBaseSDK";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DC9DB80E037280012024463BA359BC31 /* Pods */,
+				72231C4CA14AC06138FD63DE0B2277E3 /* Pods */,
 				A2435A8DE3A9A10484B55954752D845D /* Products */,
 				485FEE73DAC46226D94A5A4CCA443267 /* Targets Support Files */,
 			);
@@ -189,14 +213,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC9DB80E037280012024463BA359BC31 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BD203C5D2A2520F928984DE2A6C5A976 /* MPMBaseSDK */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		DE375232DEE038118CCE0C5B8600D2A1 /* Pods-MPMBaseSDK_Example */ = {
@@ -240,8 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4A490CEB220F49F68F901498D492C0 /* MPMBaseSDK-umbrella.h in Headers */,
-				12E8FD031679BA9CC4642BF0B3DC710C /* NSData+AES256.h in Headers */,
-				66B2C1D2FA8E606215E3451A6D56FDDB /* NSString+AES256.h in Headers */,
+				84C23410AB8F742412C5BC4B786A9263 /* NSData+AES256.h in Headers */,
+				774B44AA7E77E8F3891FFC677664136F /* NSString+AES256.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +394,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89724E8AE37E0FD06048065CA1D7734F /* MPMBaseSDK-dummy.m in Sources */,
-				EBBA8E4657D3CDC0C16952844AC8C18F /* NSData+AES256.m in Sources */,
-				7D194428CF1C5CD8C0DFEF3C78FB5223 /* NSString+AES256.m in Sources */,
+				199A4EAC2C2C62B7458A9DE33469B9DA /* NSData+AES256.m in Sources */,
+				2B8417819FE8A34917BB7E86CA349727 /* NSString+AES256.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +419,7 @@
 /* Begin XCBuildConfiguration section */
 		0A5CEE4B27A5E07A88FC448A5EB89575 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A147FFF8B18E43AD862CBA88D929729 /* MPMBaseSDK.xcconfig */;
+			baseConfigurationReference = AF1F13A5CDCD42541F4A2DE3618B71FE /* MPMBaseSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -527,7 +543,7 @@
 		};
 		6AA1814A1753E86C7100E19E395334E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A147FFF8B18E43AD862CBA88D929729 /* MPMBaseSDK.xcconfig */;
+			baseConfigurationReference = AF1F13A5CDCD42541F4A2DE3618B71FE /* MPMBaseSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
