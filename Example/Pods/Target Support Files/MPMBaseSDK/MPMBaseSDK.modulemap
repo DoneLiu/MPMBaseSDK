@@ -1,0 +1,6 @@
+framework module MPMBaseSDK {
+  umbrella header "MPMBaseSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
