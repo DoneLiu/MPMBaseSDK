@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MPMBaseSDK/**'
+  # s.source_files = 'MPMBaseSDK/**/*'
   
   # s.resource_bundles = {
   #   'MPMBaseSDK' => ['MPMBaseSDK/Assets/*.png']
@@ -39,4 +39,15 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.subspec 'NSData' do |cs|
+      cs.source_files = "MPMBaseSDK/NSData/**/*.{h,m}"
+      cs.public_header_files = "MPMBaseSDK/NSData/**/*.h"
+  end
+  
+  s.subspec 'NSString' do |cs|
+      cs.source_files = "MPMBaseSDK/NSString/**/*.{h,m}"
+      cs.public_header_files = "MPMBaseSDK/NSString/**/*.h"
+  end
+
 end
