@@ -44,12 +44,10 @@ TODO: Add long description of the pod here.
   
   s.subspec 'NSData' do |cs|
       cs.source_files = "MPMBaseSDK/NSData/**/*.{h,m}"
-      cs.public_header_files = "MPMBaseSDK/NSData/**/*.h"
   end
   
   s.subspec 'NSString' do |cs|
       cs.source_files = "MPMBaseSDK/NSString/**/*.{h,m}"
-      cs.public_header_files = "MPMBaseSDK/NSString/**/*.h"
   end
 
 end
