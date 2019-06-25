@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'MPMBaseSDK_Example' do
-  pod 'MPMBaseSDK', :path => '../'
+  pod 'MPMBaseSDK', :git => 'https://github.com/DoneLiu/MPMBaseSDK.git', :tag => '0.0.1'
 
   target 'MPMBaseSDK_Tests' do
     inherit! :search_paths

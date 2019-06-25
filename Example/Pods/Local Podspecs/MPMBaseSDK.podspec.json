@@ -1,19 +1,19 @@
 {
   "name": "MPMBaseSDK",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of MPMBaseSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/823890952@qq.com/MPMBaseSDK",
+  "homepage": "https://github.com/DoneLiu/MPMBaseSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "823890952@qq.com": "823890952@qq.com"
+    "823890952@qq.com": "Done.L"
   },
   "source": {
-    "git": "https://github.com/823890952@qq.com/MPMBaseSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/DoneLiu/MPMBaseSDK.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
