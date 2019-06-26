@@ -1,6 +1,6 @@
 {
   "name": "MPMBaseSDK",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "summary": "framework for iOS team named MPMBaseSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/DoneLiu/MPMBaseSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/DoneLiu/MPMBaseSDK.git",
-    "tag": "0.0.2"
+    "tag": "0.0.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,7 +26,32 @@
     },
     {
       "name": "NSString",
-      "source_files": "MPMBaseSDK/NSString/*.{h,m}"
+      "source_files": "MPMBaseSDK/NSString/*.{h,m}",
+      "dependencies": {
+        "YYText": [
+
+        ]
+      }
+    },
+    {
+      "name": "NSDictionary",
+      "source_files": "MPMBaseSDK/NSDictionary/*.{h,m}"
+    },
+    {
+      "name": "NSDate",
+      "source_files": "MPMBaseSDK/NSDate/*.{h,m}"
+    },
+    {
+      "name": "NSURL",
+      "source_files": "MPMBaseSDK/NSURL/*.{h,m}",
+      "dependencies": {
+        "SDWebImage": [
+
+        ],
+        "SDWebImage/WebP": [
+
+        ]
+      }
     }
   ]
 }

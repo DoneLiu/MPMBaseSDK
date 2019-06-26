@@ -1,12 +1,58 @@
 PODS:
-  - MPMBaseSDK (0.0.2):
-    - MPMBaseSDK/NSData (= 0.0.2)
-    - MPMBaseSDK/NSString (= 0.0.2)
-  - MPMBaseSDK/NSData (0.0.2)
-  - MPMBaseSDK/NSString (0.0.2)
+  - libwebp (1.0.2):
+    - libwebp/core (= 1.0.2)
+    - libwebp/dec (= 1.0.2)
+    - libwebp/demux (= 1.0.2)
+    - libwebp/dsp (= 1.0.2)
+    - libwebp/enc (= 1.0.2)
+    - libwebp/mux (= 1.0.2)
+    - libwebp/utils (= 1.0.2)
+    - libwebp/webp (= 1.0.2)
+  - libwebp/core (1.0.2):
+    - libwebp/webp
+  - libwebp/dec (1.0.2):
+    - libwebp/core
+  - libwebp/demux (1.0.2):
+    - libwebp/core
+  - libwebp/dsp (1.0.2):
+    - libwebp/core
+  - libwebp/enc (1.0.2):
+    - libwebp/core
+  - libwebp/mux (1.0.2):
+    - libwebp/core
+  - libwebp/utils (1.0.2):
+    - libwebp/core
+  - libwebp/webp (1.0.2)
+  - MPMBaseSDK (0.0.5):
+    - MPMBaseSDK/NSData (= 0.0.5)
+    - MPMBaseSDK/NSDate (= 0.0.5)
+    - MPMBaseSDK/NSDictionary (= 0.0.5)
+    - MPMBaseSDK/NSString (= 0.0.5)
+    - MPMBaseSDK/NSURL (= 0.0.5)
+  - MPMBaseSDK/NSData (0.0.5)
+  - MPMBaseSDK/NSDate (0.0.5)
+  - MPMBaseSDK/NSDictionary (0.0.5)
+  - MPMBaseSDK/NSString (0.0.5):
+    - YYText
+  - MPMBaseSDK/NSURL (0.0.5):
+    - SDWebImage
+    - SDWebImage/WebP
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SDWebImage/WebP (4.4.7):
+    - libwebp (< 2.0, >= 0.5)
+    - SDWebImage/Core
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - MPMBaseSDK (from `https://github.com/DoneLiu/MPMBaseSDK.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - libwebp
+    - SDWebImage
+    - YYText
 
 EXTERNAL SOURCES:
   MPMBaseSDK:
@@ -14,11 +60,14 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   MPMBaseSDK:
-    :commit: 6345fa166d7698fa7482176c13f3e876c7aa8b07
+    :commit: e7bb1dbc9b12fc6adf39badc6ff6691de4956651
     :git: https://github.com/DoneLiu/MPMBaseSDK.git
 
 SPEC CHECKSUMS:
-  MPMBaseSDK: e47687d09b6d92215d4bb1372c99a64a541b4593
+  libwebp: b068a3bd7c45f7460f6715be7bed1a18fd5d6b48
+  MPMBaseSDK: bfce3e2a512fea82e24351c23d059173491672bd
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
 PODFILE CHECKSUM: 411c358bb879fd7eb97a9d71a46482bf2b7847ce
 
