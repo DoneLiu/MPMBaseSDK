@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MPMBaseSDK'
-  s.version          = '0.0.6'
-  s.summary          = 'framework for iOS team named MPMBaseSDK.'
+  s.version          = '0.0.7'
+  s.summary          = 'iOS开发基础组件库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,13 +29,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  # s.source_files = 'MPMBaseSDK/**/*'
   
   # s.resource_bundles = {
   #   'MPMBaseSDK' => ['MPMBaseSDK/Assets/*.png']
   # }
 
+  s.source_files = 'MPMBaseSDK/MPMCategoryKit.h'
   s.public_header_files = 'MPMBaseSDK/MPMCategoryKit.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
@@ -66,31 +65,31 @@ TODO: Add long description of the pod here.
   end
   
   s.subspec 'UIAlertAction' do |cs|
-      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+      cs.source_files = 'MPMBaseSDK/UIAlertAction/*.{h,m}'
   end
   
   s.subspec 'UIButton' do |cs|
-      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+      cs.source_files = 'MPMBaseSDK/UIButton/*.{h,m}'
   end
   
   s.subspec 'UIFont' do |cs|
-      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+      cs.source_files = 'MPMBaseSDK/UIFont/*.{h,m}'
   end
   
   s.subspec 'UIImage' do |cs|
-      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+      cs.source_files = 'MPMBaseSDK/UIImage/*.{h,m}'
   end
   
   s.subspec 'UILabel' do |cs|
-      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+      cs.source_files = 'MPMBaseSDK/UILabel/*.{h,m}'
   end
   
   s.subspec 'UITextView' do |cs|
-      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+      cs.source_files = 'MPMBaseSDK/UITextView/*.{h,m}'
   end
   
   s.subspec 'UIView' do |cs|
-      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+      cs.source_files = 'MPMBaseSDK/UIView/*.{h,m}'
   end
 
 end
