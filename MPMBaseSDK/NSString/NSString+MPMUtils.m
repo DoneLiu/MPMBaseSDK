@@ -11,7 +11,7 @@
 #import <CommonCrypto/CommonDigest.h>
 #import "sys/utsname.h"
 #import <CoreText/CoreText.h>
-#import <YYText.h>
+#import "YYText.h"
 
 #import "NSString+MPMTypeCheck.h"
 
