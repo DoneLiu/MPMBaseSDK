@@ -1,17 +1,17 @@
 //
-//  NSData+AES256.m
-//  美平米
+//  NSData+MPMAES.m
+//  abc
 //
-//  Created by Done.L on 2019/6/19.
-//  Copyright © 2019 com.imicrothink. All rights reserved.
+//  Created by Done.L on 2019/6/26.
+//  Copyright © 2019 Done.L. All rights reserved.
 //
 
-#import "NSData+AES256.h"
+#import "NSData+MPMAES.h"
 
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonCryptor.h>
 
-@implementation NSData (AES256)
+@implementation NSData (MPMAES)
 
 // 加密
 - (NSData *)aes256_encrypt:(NSString *)key {

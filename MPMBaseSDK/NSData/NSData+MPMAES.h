@@ -1,16 +1,16 @@
 //
-//  NSData+AES256.h
-//  美平米
+//  NSData+MPMAES.h
+//  abc
 //
-//  Created by Done.L on 2019/6/19.
-//  Copyright © 2019 com.imicrothink. All rights reserved.
+//  Created by Done.L on 2019/6/26.
+//  Copyright © 2019 Done.L. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSData (CMAES)
+@interface NSData (MPMAES)
 
 /**
  AES256加密
@@ -19,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
  @return 加密数据
  */
 - (NSData *)aes256_encrypt:(NSString *)key;
-
 
 /**
  AES256解密

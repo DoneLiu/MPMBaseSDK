@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MPMBaseSDK'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'framework for iOS team named MPMBaseSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'MPMBaseSDK' => ['MPMBaseSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'MPMBaseSDK/MPMCategoryKit.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
@@ -46,23 +46,51 @@ TODO: Add long description of the pod here.
       cs.source_files = 'MPMBaseSDK/NSData/*.{h,m}'
   end
   
-  s.subspec 'NSString' do |cs|
-      cs.source_files = 'MPMBaseSDK/NSString/*.{h,m}'
-      cs.dependency 'YYText'
+  s.subspec 'NSDate' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSDate/*.{h,m}'
   end
   
   s.subspec 'NSDictionary' do |cs|
       cs.source_files = 'MPMBaseSDK/NSDictionary/*.{h,m}'
   end
   
-  s.subspec 'NSDate' do |cs|
-      cs.source_files = 'MPMBaseSDK/NSDate/*.{h,m}'
+  s.subspec 'NSString' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSString/*.{h,m}'
+      cs.dependency 'YYText'
   end
   
   s.subspec 'NSURL' do |cs|
       cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
       cs.dependency 'SDWebImage'
       cs.dependency 'SDWebImage/WebP'
+  end
+  
+  s.subspec 'UIAlertAction' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+  end
+  
+  s.subspec 'UIButton' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+  end
+  
+  s.subspec 'UIFont' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+  end
+  
+  s.subspec 'UIImage' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+  end
+  
+  s.subspec 'UILabel' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+  end
+  
+  s.subspec 'UITextView' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+  end
+  
+  s.subspec 'UIView' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
   end
 
 end
