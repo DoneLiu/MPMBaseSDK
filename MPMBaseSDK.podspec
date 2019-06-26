@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MPMBaseSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'framework for iOS team named MPMBaseSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -48,6 +48,20 @@ TODO: Add long description of the pod here.
   
   s.subspec 'NSString' do |cs|
       cs.source_files = 'MPMBaseSDK/NSString/*.{h,m}'
+      cs.dependency = 'YYText'
+  end
+  
+  s.subspec 'NSDictionary' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSDictionary/*.{h,m}'
+  end
+  
+  s.subspec 'NSDate' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSDate/*.{h,m}'
+  end
+  
+  s.subspec 'NSURL' do |cs|
+      cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
+      cs.dependency = 'SDWebImage'
   end
 
 end
