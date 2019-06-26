@@ -48,7 +48,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'NSString' do |cs|
       cs.source_files = 'MPMBaseSDK/NSString/*.{h,m}'
-      cs.dependency = 'YYText'
+      cs.dependency 'YYText'
   end
   
   s.subspec 'NSDictionary' do |cs|
@@ -61,7 +61,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'NSURL' do |cs|
       cs.source_files = 'MPMBaseSDK/NSURL/*.{h,m}'
-      cs.dependency = 'SDWebImage'
+      cs.dependency 'SDWebImage'
   end
 
 end
